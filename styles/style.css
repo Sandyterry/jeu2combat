@@ -1,0 +1,229 @@
+.principal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+ .joueur1{
+    width: 50%;
+    height: 100%;
+ }
+
+ .joueur2{
+    width: 50%;
+    height: 100%;
+ }
+
+
+
+h1 {
+    color: rgb(132, 157, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+}
+
+h3{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(132, 157, 236);
+}
+
+.characterej1{
+    margin-left: 15%;
+    height: 100%;
+    width: 90%;
+}
+
+.characterej2{
+    display: flex;
+    justify-content:center;
+
+    height: 100%;
+    width: 90%;
+  
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/arene9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allcontainer1{
+    height: 100%;
+    margin-left: 7%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.allcontainer2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.cartecapacites{
+    height: 100%;
+    width: 100%;
+}
+ .boutoncombat{
+    height: 100%;
+    width: 10%;
+    display:flex;
+    align-content: flex-end;
+ }
+
+ .btnCombatStart{
+    height: 20%;
+    width:100%;
+    display:flex;
+    
+ }
+
+ .aireDeCombat{
+    display: none;
+    height: 150%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#combatGauche{
+    height: 70%;
+    width: 50%;
+    display: flex;
+
+}
+
+#combatDroite{
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    width: 50%;
+}
+
+.imgCombatGauche{
+    
+    height: 30%;
+    width: 40%;
+}
+.imgCombatDroite{
+    height: 40%;
+    width: 40%;
+}
+
+button{
+    border-radius: 20%;
+    background-color: rgb(132, 157, 236);
+    height: 50px;
+    width:100px;
+}
+
+.boutonControleGauche{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.boutonControleDroit{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+
+.pointsdeviecontainer{
+    display: none;
+    justify-content: space-around;
+
+}
+
+.barredevieG {
+   color: rgb(132, 157, 236);
+    height: 20px;
+    width: 500px;
+    border: 3px solid;
+}
+
+.barredevieD {
+    color: rgb(132, 157, 236);
+    height: 20px;
+    width: 500px;
+    border: 3px solid;
+}
+
+h2{
+    color: rgb(132, 157, 236);
+}
+
+.remplissagevieG{
+    height: 20px;
+    width: 500px;
+    background-color: aliceblue;
+}
+
+.remplissagevieD{
+    height: 20px;
+    width: 500px;
+    background-color: aliceblue;
+}
+
+.cartecapacitesD{
+    text-align: center;
+    color: rgb(132, 157, 236);
+    border: 5px solid rgb(132, 157, 236);
+    height: 100%;
+    border-radius: 25%;
+    padding: 10px;
+    background-image: url(../images/bg.jpg);
+
+}
+
+.cartecapacitesG{
+    text-align: center;
+    color:rgb(132, 157, 236) ;
+    border: 5px solid rgb(132, 157, 236);
+    height: 100%;
+    border-radius: 25%;
+    padding: 10px;
+    background-image: url(../images/bg.jpg);
+}
+
+.allBtnDroite{
+display: flex;
+justify-content: space-around;
+
+}
+
+.allBtnGauche{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    }
+
+.btnCombatStart{
+    font-size: larger;
+}
